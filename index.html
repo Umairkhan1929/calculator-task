@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <div class="row">
+            <input type="button" value="7" onclick="displaymeDalDo('7')">
+            <input type="button" value="8" onclick="displaymeDalDo('8')">
+            <input type="button" value="9" onclick="displaymeDalDo('9')">
+            <input type="button" id="slash" value="/" onclick="displaymeDalDo('/')">
+        </div>
+
+        <div class="row">
+            <input type="button" value="4" onclick="displaymeDalDo('4')">
+            <input type="button" value="5" onclick="displaymeDalDo('5')">
+            <input type="button" value="6" onclick="displaymeDalDo('6')">
+            <input type="button" id="multi" value="x" onclick="displaymeDalDo('*')">
+        </div>
+
+        <div class="row">
+            <input type="button" value="1" onclick="displaymeDalDo('1')">
+            <input type="button" value="2" onclick="displaymeDalDo('2')">
+            <input type="button" value="3" onclick="displaymeDalDo('3')">
+            <input type="button" id="sub" value="-" onclick="displaymeDalDo('-')">
+        </div>        
+    
+        <div class="row">
+            <input type="button" value="C" id="clear" onclick="clearDisplay('')">
+            <input type="button" value="0" onclick="displaymeDalDo('0')">
+            <input type="button" id="add" value="+" onclick="displaymeDalDo('+')">
+            <input type="button" id="equal" value="=" onclick="displaymeDalDo('=')">
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html> 

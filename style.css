@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px solid;
+    height: 100vh;
+}
+
+#calculator{
+    /* background-color: #301934; */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 4px , inset 0px -20px 1px white;
+    width: 25%;
+    height: 64%;
+
+}
+
+#display{
+    width: 90%;
+    height: 13%;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px , inset 0px -20px 1px white;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.row input{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px , inset 0px -20px 1px white;
+}
+
+.row input:hover{
+    color: red;
+}
+
+#slash{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px , inset 0px -20px 1px black;
+}
+
+#slash:hover{
+    color: red;
+}
+
+#multi{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px , inset 0px -20px 1px black;
+}
+
+#multi:hover{
+    color: red;
+}
+
+#sub{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px , inset 0px -20px 1px black;
+}
+
+#sub:hover{
+    color: red;
+}
+
+#equal{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px , inset 0px -20px 1px black;
+}
+
+#equal:hover{
+    color: red;
+
+}
+
+#add{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px , inset 0px -20px 1px black;
+}
+
+#add:hover{
+    color: red;
+
+}
+
+#clear{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px , inset 0px -20px 1px red;
+
+}
+
+#clear:hover{
+    text-shadow: -1px -1px 5px black;
+}
